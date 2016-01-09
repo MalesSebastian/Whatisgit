@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What is Git?</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="icon" type="image/png" href="favicon.ico">
+</head>
+<body>
+  <div class="title">
+    <a><span class="what">What is </span><span class="part">Git</span>?</a>
+  </div>
+  <hr class="hor">
+  <br>
+  <br>
+  <div class="big_par">
+    <p><span class="fline">Git is a software that allows you to </span><span class="part">keep track of changes </span>made to a project over time.
+       Git works by recording the changes you make to a project, <span class="part">storing those changes in repositories</span>, then allowing you to reference them as needed. </p>
+  </div>
+  <div class="list">
+    <div class="basic_titles">
+      <a><span class="part">Basic</span> functionalities:</a>
+    </div>
+    <div>
+      <ul class="func">
+        <li><i>git branch</i></li>
+        <div class="lpar">
+          <p>A repository is structured on branches. This command can list, create or delete branches depending on your non-option arguments, if there are none of those, existing branches are listed. </p>
+        </div>
+        <li><i>git checkout</i></li>
+        <div class="lpar">
+          <p>Switches branches or restore working tree files. Specifying -b causes a new branch to be created as if git-branch were called and then checked out. <strong> git checkout commit file </strong> checks out a previous version of a file. This turns the <file> that resides in the working directory into an exact copy of the one from <commit> and adds it to the staging area.</p>
+        </div>
+        <li><i>git status</i></li>
+        <div class="lpar">
+          <p>Show the working tree status(e.g. what files suffered changes but they are not commited).</p>
+        </div>
+        <li><i>git log</i></li>
+        <div class="lpar">
+          <p>Shows the commit logs.</p>
+        </div>
+        <li><i>git push</i></li>
+        <div class="lpar">
+          <p> Pushes the commited changes to the selected branch updating remote refs along with associated objects.</p>
+        </div>
+        <li><i>git commit</i></li>
+        <div class="lpar">
+          <p>Put added file(git add file) from the staging area inside the repository.</p>
+        </div>
+        <li><i>git rebase</i></li>
+        <div class="lpar">
+          <p>Git rebase update to the upstream head your local workspace.</p>
+        </div>
+        <li><i>git stash</i></li>
+        <div class="lpar">
+          <p>Saves changes on a trach of unfinished changes. Example: Often, when you have been working on part of your project, things are in a messy state and you want to switch branches for a bit to work on something else. The problem is, you don not want to do a commit of half-done work just so you can get back to this point later. The answer to this issue is the git stash command.</p>
+        </div>
+        <li><i>git reset</i></li>
+        <div class="lpar">
+          <p>Resets current HEAD to the specified state.</p>
+        </div>
+      </ul>
+    </div>
+    <br>
+    <br>
+  </div>
+  <div class="submit">
+    <a href="http://fossasia.org/">Project at FOSSASIA Google Code-In 2015</a>
+  </div>
+  <br>
+  <br>
+</body>
+</html>

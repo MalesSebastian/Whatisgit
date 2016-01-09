@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Gotham;
+  src:url(Fonts/Gotham.ttf);
+}
+.title{
+    font-family: Gotham;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5%;
+    animation-name:title;
+    animation-duration:0.7s;
+}
+.part{
+  color: #ee4f33;
+}
+.hor{
+  width: 18%;
+  background-color:  #ee4f33;
+
+}
+.big_par{
+  font-family:Gotham;
+  font-size: 30px;
+  text-align: center;
+  width: 50%;
+  margin-left: 20%;
+  text-decoration: none;
+  padding: 100px 100px;
+  margin-top: -5%;
+}
+.basic_titles{
+  font-family: Gotham;
+  font-size: 45px;
+  animation-name: basic_titles;
+  animation-duration: 0.7s;
+}
+.list{
+  margin-left: 7%;
+}
+.func{
+  color: #ee4f33;
+  font-size: 35px;
+  margin-left: 3%;
+}
+.lpar{
+  font-family: Gotham;
+  color:black;
+  animation-name: lpar;
+  animation-duration: 1s;
+}
+.submit{
+  font-family: Gotham;
+  font-size: 30px;
+  text-align: center;
+}
+.submit a{
+  text-decoration: none;
+  color: black;
+}
+li{
+  animation-name: element;
+  animation-duration: 1s;
+}
+@keyframes element{
+  from {margin-left: -7%;}
+  to{margin-left: 0%}
+}
+@keyframes lpar{
+  from {margin-left: 7%;}
+  to {margin-left: 0%;}
+}
+@keyframes basic_titles{
+  from {margin-left: -7%;}
+  to {margin-left: 0%;}
+}
+@keyframes title{
+    from{margin-top: 0%;}
+    to {margin-top: 5%;}
+}
+
