@@ -61,6 +61,9 @@ li{
   animation-name: element;
   animation-duration: 1s;
 }
+.submit #link a:hover{
+  text-decoration: underline;
+}
 @keyframes element{
   from {margin-left: -7%;}
   to{margin-left: 0%}

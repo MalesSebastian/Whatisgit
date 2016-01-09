@@ -26,38 +26,74 @@
         <li><i>git branch</i></li>
         <div class="lpar">
           <p>A repository is structured on branches. This command can list, create or delete branches depending on your non-option arguments, if there are none of those, existing branches are listed. </p>
+          <a> Example(deleting a branch):</a> 
+          <br><br>
+          <code>git branch -d any_local_branch</code>
+          <br><br>
         </div>
         <li><i>git checkout</i></li>
         <div class="lpar">
           <p>Switches branches or restore working tree files. Specifying -b causes a new branch to be created as if git-branch were called and then checked out. <strong> git checkout commit file </strong> checks out a previous version of a file. This turns the file that resides in the working directory into an exact copy of the one from commit and adds it to the staging area.</p>
+          <a> Example(chaging the local branch): </a>
+          <br><br>
+          <code>git checkout any_local_branch</code>
+          <br><br>
         </div>
         <li><i>git status</i></li>
         <div class="lpar">
           <p>Shows the working tree status(e.g. what files suffered changes but they are not committed).</p>
+          <a> Example: </a>
+          <br><br>
+          <code>git status</code>
+          <br><br>
         </div>
         <li><i>git log</i></li>
         <div class="lpar">
           <p>Shows the commit logs.</p>
+          <a> Example: </a>
+          <br><br>
+          <code>git log</code>
+          <br><br>
         </div>
         <li><i>git push</i></li>
         <div class="lpar">
           <p> Pushes the committed changes to the selected branch updating remote refs along with associated objects.</p>
+          <a> Example: </a>
+          <br><br>
+          <code>git push</code>
+          <br><br>
         </div>
         <li><i>git commit</i></li>
         <div class="lpar">
           <p>Puts added files(git add file) located in the  staging area inside the repository.</p>
+          <a> Example(commit files added): </a>
+          <br><br>
+          <code>git commit -m "First commit"</code>
+          <br><br>
         </div>
         <li><i>git rebase</i></li>
         <div class="lpar">
           <p>Git rebase updates to the upstream head your local workspace.</p>
+          <a> Example: </a>
+          <br><br>
+          <code>git rebase</code>
+          <br><br>
         </div>
         <li><i>git stash</i></li>
         <div class="lpar">
           <p>Saves changes on a trach of unfinished changes. Example: Often, when you have been working on part of your project, things are in a messy state and you want to switch branches for a bit to work on something else. The problem is, you don not want to do a commit of half-done work just so you can get back to this point later. The answer to this issue is the git stash command.</p>
+          <a> Example: </a>
+          <br><br>
+          <code>git stash</code>
+          <br><br>
         </div>
         <li><i>git reset</i></li>
         <div class="lpar">
           <p>Resets current HEAD to the specified state.</p>
+          <a> Example(Undo a commit, making it a topic branch): </a>
+          <br><br>
+          <code>git reset --hard HEAD~3</code>
+          <br><br>
         </div>
       </ul>
     </div>
@@ -65,7 +101,9 @@
     <br>
   </div>
   <div class="submit">
-    <a href="http://fossasia.org/">Project at FOSSASIA Google Code-In 2015</a>
+    <a>Project at FOSSASIA Google Code-In 2015</a>
+    <br><br>
+    <a href="http://fossasia.org/" id="link">http://fossasia.org/</a>
   </div>
   <br>
   <br>
